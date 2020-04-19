@@ -19,7 +19,7 @@ function App() {
           <Header />
           <Route path='/' exact component={Home} />
           <Route path='/detail/:id' exact component={Detail} />
-          <Login path='/login' exact component={Login} />
+          <Route path='/login' exact component={Login} />
         </BrowserRouter>
       </Provider>
     </>

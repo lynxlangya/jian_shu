@@ -9,7 +9,7 @@ class Login extends PureComponent {
     const { login } = this.props
     if (login) {
       return <Redirect to='/' />
-    } else if (!login) {
+    } else {
       return (
         <LoginWrapper>
           <Title>登录</Title>
